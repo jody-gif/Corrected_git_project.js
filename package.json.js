@@ -1,0 +1,27 @@
+{
+  "name": "notuber",
+  "version": "0.0.0",
+  "description": "notuber",
+  "main": "server.js",
+  "author": "",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "google": "^2.1.0",
+    "googleapis": "^72.0.0",
+    "googlemaps": "^1.12.0",
+    "mongoose": "^5.12.5",
+    "query-string": "^7.0.0",
+    "request": "^2.88.2",
+    "url-parse": "^1.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
